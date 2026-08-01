@@ -167,31 +167,41 @@ body{
   font-size:14px;
 }
 
-.section{
-  padding:110px 0;
-}
-
-.section-title{
-  text-align:center;
-  margin-bottom:60px;
-}
-
-.section-title h2,
-.section h2{
-  font-size:42px;
-  margin-bottom:16px;
-}
-
 .section-title p,
 .section p{
   color:var(--muted);
 }
-
-.services-grid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:24px;
+.section{
+  padding:60px 0;
 }
+
+.section-title{
+  text-align:center;
+  margin-bottom:35px;
+}
+
+.section-title h2,
+.section h2{
+  font-size:40px;
+  margin-bottom:12px;
+}
+
+.hero{
+  min-height:90vh;
+  padding:120px 0 50px;
+}
+
+.hero-stats{
+  margin-top:35px;
+}
+
+#about,
+#skills,
+#portfolio,
+#contact{
+  padding:60px 0;
+}
+
 
 .card{
   background:#fff;
