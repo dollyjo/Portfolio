@@ -127,6 +127,34 @@ body{
   gap:25px;
 }
 
+.skill{
+  margin-bottom:25px;
+}
+
+.skill span{
+  display:block;
+  margin-bottom:10px;
+}
+
+.bar{
+  width:100%;
+  height:10px;
+  background:#1e293b;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.fill{
+  height:100%;
+  background:#f59e0b;
+  border-radius:20px;
+}
+
+.w95{width:95%;}
+.w90{width:90%;}
+.w85{width:85%;}
+
+
 .card,
 .project{
   background:#1e293b;
