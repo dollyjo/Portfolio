@@ -33,9 +33,12 @@ body{
 }
 .header{
   position:fixed;
-  top:18px;
+  top:0;
   left:0;
   width:100%;
+  background:#ffffff;
+  border-bottom:1px solid #e5e7eb;
+  box-shadow:0 4px 20px rgba(0,0,0,0.06);
   z-index:1000;
 }
 
@@ -43,27 +46,30 @@ body{
   display:flex;
   justify-content:space-between;
   align-items:center;
-
-  /* Strong glass effect */
-  background:rgba(248,247,244,0.82);
-  backdrop-filter:blur(18px);
-  -webkit-backdrop-filter:blur(18px);
-
-  border:1px solid rgba(255,255,255,0.6);
-  border-radius:18px;
-  padding:16px 24px;
-
-  box-shadow:0 12px 30px rgba(0,0,0,0.08);
+  padding:16px 0;
 }
-.header::before{
-  content:'';
-  position:absolute;
-  inset:0;
-  background:rgba(248,247,244,0.15);
-  backdrop-filter:blur(20px);
-  -webkit-backdrop-filter:blur(20px);
-  z-index:-1;
-  border-radius:18px;
+
+.logo{
+  color:#1f2937;
+  text-decoration:none;
+  font-size:22px;
+  font-weight:700;
+}
+
+.nav a{
+  color:#6b7280;
+  text-decoration:none;
+  margin-left:26px;
+  font-weight:500;
+  transition:0.3s;
+}
+
+.nav a:hover{
+  color:#3f6b4f;
+}
+
+body{
+  padding-top:80px;
 }
 
 .logo{
