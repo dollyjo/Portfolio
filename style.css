@@ -80,7 +80,22 @@ body{
   display:flex;
   gap:15px;
 }
+}
 
+.hero h1 span{
+  color:#f59e0b;
+}
+
+.hero-stats{
+  display:flex;
+  gap:40px;
+  margin-top:40px;
+}
+
+.hero-stats h3{
+  color:#f59e0b;
+  font-size:32px;
+}
 .btn{
   background:#f59e0b;
   color:#111827;
